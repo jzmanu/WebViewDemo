@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.manu.webviewdemo.MainActivity">
+
+    <TextView
+        android:id="@+id/tv_loadNet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="16dp"
+        android:text="加载完整的网页"
+        android:background="@drawable/drawable_water_ripple"/>
+    <TextView
+        android:id="@+id/tv_loadLocalHtml"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="16dp"
+        android:text="加载本地 HTML 文件"
+        android:background="@drawable/drawable_water_ripple"/>
+    <TextView
+        android:id="@+id/tv_loadHtmlData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="16dp"
+        android:text="加载 HTML 片段"
+        android:background="@drawable/drawable_water_ripple"/>
+    <TextView
+        android:id="@+id/tv_setting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="16dp"
+        android:text=" 为 WebView 中的图片设置点击事件"
+        android:background="@drawable/drawable_water_ripple"/>
+</LinearLayout>
